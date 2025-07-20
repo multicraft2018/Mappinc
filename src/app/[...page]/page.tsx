@@ -1,3 +1,4 @@
+'use client';
 import { builder } from "@builder.io/sdk";
 import { RenderBuilderContent } from "../../components/builder";
 
