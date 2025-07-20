@@ -10,7 +10,7 @@ export default function Home() {
         </p>
       </div>
       <div>
-        <h2 className='text-4xl'>Have fun!</h2>
+        <h2 className='text-4xl'>Kareem</h2>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
