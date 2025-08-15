@@ -1,3 +1,4 @@
+
 import { builder } from "@builder.io/sdk";
 import { RenderBuilderContent } from "../../components/builder";
 
@@ -5,18 +6,21 @@ import { RenderBuilderContent } from "../../components/builder";
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
 interface PageProps {
-  params: {
+  params: Promise<{
     page: string[];
-  };
+  }>;
 }
 
 export default async function Page(props: PageProps) {
+  // Await the params since they're now a Promise in Next.js 15+
+  const params = await props.params;
+  
   const content = await builder
     // Get the page content from Builder with the specified options
     .get("page", {
       userAttributes: {
         // Use the page path specified in the URL to fetch the content
-        urlPath: "/" + (props?.params?.page?.join("/") || ""),
+        urlPath: "/" + (params?.page?.join("/") || ""),
       },
       // Set prerender to false to return JSON instead of HTML
       prerender: false,

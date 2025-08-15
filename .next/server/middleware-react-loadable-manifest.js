@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST='{"builder-registry.ts -> ./components/Card/Card":{"id":8507,"files":["static/chunks/507.d59ee90ed12673c5.js"]},"builder-registry.ts -> ./components/Counter/Counter":{"id":1113,"files":["static/css/e5db86fb78677404.css","static/chunks/113.5033145163877d40.js"]}}';
