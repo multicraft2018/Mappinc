@@ -20,7 +20,7 @@
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-7a34cadcb7695cec.js",
       "static/chunks/main-app-377f5fb855f0e5f2.js",
-      "static/chunks/39-b5253816d091ddbb.js",
+      "static/chunks/39-045377ef56d19e72.js",
       "static/chunks/app/[...page]/page-a6186236d817d251.js"
     ],
     "/hero-demo/page": [
@@ -28,9 +28,8 @@
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-7a34cadcb7695cec.js",
       "static/chunks/main-app-377f5fb855f0e5f2.js",
-      "static/chunks/39-b5253816d091ddbb.js",
-      "static/chunks/192-dea6958e61f3e1e4.js",
-      "static/chunks/app/hero-demo/page-38ebcfc729a93d93.js"
+      "static/chunks/39-045377ef56d19e72.js",
+      "static/chunks/app/hero-demo/page-eab5c3901eaf234b.js"
     ],
     "/testimonial/page": [
       "static/chunks/webpack-c1d463e23c6d6b6a.js",

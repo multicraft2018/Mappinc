@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@builder.io/sdk": "^6.1.2",
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -25,7 +26,6 @@
   "devDependencies": {
     "@builder.io/dev-tools": "^0.0.40",
     "@builder.io/react": "^8.2.6",
-    "@builder.io/sdk": "^2.0.4",
     "daisyui": "^3.3.1"
   }
 }
