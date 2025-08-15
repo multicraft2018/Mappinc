@@ -1,15 +1,15 @@
 {
   "builder-registry.ts -> ./components/Card/Card": {
-    "id": 8507,
+    "id": "builder-registry.ts -> ./components/Card/Card",
     "files": [
-      "static/chunks/507.d59ee90ed12673c5.js"
+      "static/chunks/_app-pages-browser_src_components_Card_Card_tsx.js"
     ]
   },
   "builder-registry.ts -> ./components/Counter/Counter": {
-    "id": 1113,
+    "id": "builder-registry.ts -> ./components/Counter/Counter",
     "files": [
-      "static/css/e5db86fb78677404.css",
-      "static/chunks/113.5033145163877d40.js"
+      "static/css/_app-pages-browser_src_components_Counter_Counter_tsx.css",
+      "static/chunks/_app-pages-browser_src_components_Counter_Counter_tsx.js"
     ]
   }
 }
